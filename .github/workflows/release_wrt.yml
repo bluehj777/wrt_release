@@ -1,5 +1,5 @@
 name: Release WRT
-run-name: Release - ${{ inputs.model }} - ${{ inputs.USE_APK == true && 'apk' || 'ipk' }}
+run-name: Release - ${{ inputs.model }}
 
 on:
   workflow_dispatch:
